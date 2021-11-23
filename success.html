@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спасибо за заявку!</title>
+    
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.inputmask.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header-catalog">
+        <nav id="myHeader" class="navbar navbar-expand-sm d-flex row justify-content-md-between justify-content-sm-around align-items-center" style="margin: 0; width: 100%;"> 
+            <div class="container">  
+            <!-- fixed-top -->
+              <!-- <h5 class="navbar-brand" id="navbar_brand" href="#">Наш телефон: <a class="phone" href="tel:+77008368168">
+                  +7 (700) 836-8168</a> </h5> -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar"> 
+                <ul class="navbar-nav flex row justify-content-between" style="width: 100%;">
+                      <li class="nav-item">
+                        <p class="nav-link" style="margin-bottom: 0;">Наш телефон: <a class="phone" href="tel:+77008368168">+7 (700) 836-8168</a></p>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./catalog.html">Каталог</a>
+                      </li>
+                      <li class="nav-item mobile-hide">
+                          <a class="nav-link" href="./index.html#advantages">Преимущества</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./index.html#portfolio">Наши работы</a>
+                      </li>
+                      <li class="nav-item mobile-hide">
+                          <a class="nav-link" href="./index.html#about-us">О нас</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./index.html#questions">Вопросы</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./index.html#contact">Контакты</a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <script>
+        // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+    // Get the header
+    var header = document.getElementById("myHeader");
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+    <div class="success">
+        <div class="container">
+            <h2 class="text-center title mt-5 mb-4">Спасибо!</h2>
+            <p class="text-center success__text">
+                Ваша заявка отправлена
+            </p>
+            <p class="text-center success__text mb-4">
+                В ближайшее время мы свяжемся с Вами!
+            </p>
+        </div>
+    </div>
+    <footer class="w-100 py-4 flex-shrink-0">
+        <div class="footer-container container py-4">
+            <div class="flex-lg-row flex-md-column flex-sm-column gy-4 gx-5 footer-content">
+                <div class="col-lg-4 col-md-6">
+                  <h5 class="navbar-brand" id="navbar_brand" href="#">Наш телефон: <a class="phone" href="tel:+77008368168">
+                    +7 (700) 836-8168</a> </h5>
+                </div>
+  
+                <div class="col-lg-8 col-md-6 footer-list" style="display: flex; flex-wrap: wrap;">
+                    <div class="col-lg-4 col-md-4 col-sm-4"><a href="./catalog.html" class="footer__link">Каталог</a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-4"><a href="./index.html#portfolio" class="footer__link">Наши работы</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4"><a href="./index.html#questions" class="footer__link">Вопросы</a></div>
+                    <div class="col-lg-4 col-md-6 col-sm-4"><a href="./index.html#advantages" class="footer__link">Преимущества</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4"><a href="./index.html#about-us" class="footer__link">О нас</a></div>
+                    <div class="col-lg-4 col-md-6 col-sm-4"><a href="./index.html#contact" class="footer__link">Контакты</a></div>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
